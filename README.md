@@ -2,3 +2,4 @@
 ## Bhargvi Handa
 ## Nina He
 ## Aditi Patel
+## Jon Go
