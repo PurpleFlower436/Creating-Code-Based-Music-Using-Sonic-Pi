@@ -1,0 +1,17 @@
+#Sonic Pi Code, Percussion set 1
+
+4.times do
+  sample :drum_heavy_kick
+  sleep 0.6
+  with_fx :reverb do
+    sample :perc_snap2
+    sleep 1
+  end
+  sample :drum_heavy_kick
+  sleep 0.3
+  with_fx :reverb do
+    sample :perc_snap2
+    sleep 0.7
+  end
+end
+
