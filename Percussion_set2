@@ -1,0 +1,64 @@
+# Welcome to Sonic Pi
+# quarter note = sleep 0.6
+# dotted quarter = sleep 1
+# eighth note = 0.3
+
+#1st percussion
+3.times do
+  sample :drum_heavy_kick
+  sleep 0.6
+  with_fx :reverb do
+    sample :perc_snap2
+    sleep 1
+  end
+  sample :drum_heavy_kick
+  sleep 0.3
+  with_fx :reverb do
+    sample :perc_snap2
+    sleep 0.7
+  end
+end
+
+sample :drum_heavy_kick
+sleep 0.6
+with_fx :reverb do
+  sample :perc_snap2
+  sleep 1
+end
+sample :drum_heavy_kick
+sleep 0.3
+with_fx :reverb do
+  sample :perc_snap2
+  sleep 0.3
+end
+
+sample :drum_heavy_kick
+sleep 0.3
+
+#2nd percussion
+4.times do
+  sample :drum_heavy_kick
+  with_fx :reverb do
+    sample :perc_snap2
+  end
+  sleep 0.45
+  with_fx :reverb do
+    sample :perc_snap2
+  end
+  sleep 0.15
+  with_fx :reverb do
+    sample :perc_snap
+  end
+  sleep 0.3
+  with_fx :reverb do
+    sample :perc_snap2
+  end
+  sleep 0.7
+  with_fx :reverb do
+    sample :perc_snap2
+  end
+  sleep 0.3
+  with_fx :reverb do
+    sample :perc_snap
+  end
+end
