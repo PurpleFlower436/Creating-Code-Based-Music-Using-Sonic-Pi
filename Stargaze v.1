@@ -1,0 +1,142 @@
+in_thread(name: :beat)  do
+  20.times do
+    with_fx :bitcrusher do
+      sample :bd_ada
+      sleep 0.25
+      sample :drum_cymbal_closed
+      sleep 0.25
+      sample :sn_generic
+      sleep 0.25
+      sample :drum_cymbal_closed
+      sleep 0.25
+    end
+  end
+end
+
+in_thread(name: :bass) do
+  5.times do
+    with_fx :reverb do
+      use_synth :chipbass
+      play :Ds3, sustain: 0.5
+      play :Gs3, sustain: 0.5
+      
+      sleep 1.75
+      
+      play :Ds3, sustain: 0.5
+      play :G3, sustain: 0.5
+      play :As3, sustain: 0.5
+      
+      sleep 1.25
+      
+      play :Ds3, sustain: 0.5
+      
+      sleep 0.25
+      
+      play :F3, sustain: 0.5
+      
+      sleep 0.25
+      
+      play :Ds3, sustain: 0.5
+      play :Gs3, sustain: 0.5
+      
+      sleep 1
+      
+      play :As3, sustain: 0.5
+      sleep 0.5
+      play :F3, sustain: 0.5
+      sleep 0.75
+      play :Ds3, sustain: 0.5
+      sleep 1.25
+      
+    end
+  end
+end
+
+# Melody iteration 1
+in_thread(name: :melody) do
+  sleep 7
+  use_synth :chiplead
+  play :Ds5
+  sleep 0.5
+  play :Ds5
+  sleep 0.25
+  play :Ds5
+  sleep 0.25
+  play :Ds5
+  sleep 0.25
+  play :Ds5
+  sleep 0.5
+  play :Ds5
+  sleep 0.25
+  play :G5
+  sleep 0.5
+  play :Ds5
+  sleep 0.25
+  play :F5
+  sleep 0.5
+  # Melody Iteration 2
+  play :F5
+  sleep 0.25
+  play :G5
+  sleep 0.25
+  play :Gs5
+  sleep 0.25
+  play :As5
+  sleep 0.25
+  play :As5
+  sleep 0.25
+  play :As5
+  sleep 0.25
+  play :As5
+  sleep 0.25
+  play :As5
+  sleep 0.5
+  play :Gs5
+  sleep 0.25
+  play :G5
+  sleep 0.25
+  play :Gs5
+  sleep 0.25
+  play :As5
+  sleep 0.5
+  play :G5
+  sleep 0.5
+  play :Ds5
+  sleep 0.5
+  play :F5
+  sleep 0.75
+  #Melody Iteration 3
+  play :g5
+  sleep 0.25
+  play :f5
+  sleep 0.25
+  play :ds5
+  sleep 0.5
+  play :as4
+  sleep 0.5
+  play :ds5
+  sleep 0.5
+  play :g4
+  sleep 0.25
+  play :gs4
+  sleep 0.25
+  play :as4
+  sleep 0.5
+  play :g5
+  sleep 0.25
+  play :ds5
+  sleep 0.25
+  play :as5
+  sleep 0.5
+  play :d6
+  sleep 0.5
+  play :ds6
+  sleep 1
+  play :f6
+  sleep 1
+  play :as6
+  sleep 1
+  play :d7
+  sleep 1
+  play :ds7
+end
