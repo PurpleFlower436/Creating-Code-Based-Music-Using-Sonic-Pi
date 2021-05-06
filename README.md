@@ -20,10 +20,10 @@ We used Raspberry Pi Os
 
 ## Results - Our Code 
 
-* Bhargvi 
-* Aditi 
-* Nina 
-* Jon 
+* Bhargvi - `Elctronic Guiter` 
+* Aditi - `sunbreak-sleepyfish`
+* Nina - `Pianobeats`
+* Jon - `Stargaze` 
 
 ## Conclusion & Evaluation 
 
