@@ -1,6 +1,6 @@
 # Creating Code Based Music Using Sonic Pi 
 
-Bhargvi Handa,  Aditi Patel, Nina He, Jon Go
+For our final Comp 264 project we decided to explore Sonic Pi and create code based music 
 
 ## Introduction
 
