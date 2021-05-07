@@ -1,6 +1,6 @@
-# Creating Code Based Music Using Sonic Pi 
+# Creating Code Based Music Using Sonic Pi !
 
-For our final Comp 264 project we decided to explore Sonic Pi and create code based music 
+For our final COMP264 project we decided to explore Sonic Pi and create code based music. 
 
 ## Introduction
 
@@ -10,11 +10,11 @@ Digital Music has become increasingly popular since the turn of the 21st Century
 
 ## Software 
 Install Sonic Pi for macOS, Windows, or Raspberry Pi OS https://sonic-pi.net/
-We used Raspberry Pi Os
+We used Raspberry Pi OS
 
 
 ## Goals 
-* Would like to show the class the possibilities of creating digital music using software and the Raspberry Pi operating system. 
+* Show the class the possibilities of creating digital music using software and the Raspberry Pi operating system. 
 * Overall aim is to create digital music using the Sonic Pi and Raspberry Pi.
 * Learn how to use/explore a new tool and get a better idea of how code and music intersect
 
