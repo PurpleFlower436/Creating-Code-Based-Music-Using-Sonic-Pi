@@ -18,12 +18,18 @@ We used Raspberry Pi Os
 * Overall aim is to create digital music using the Sonic Pi and Raspberry Pi.
 * Learn how to use/explore a new tool and get a better idea of how code and music intersect
 
-## Results - Our Code 
-
+## The Initial Code 
 * Bhargvi - `Elctronic Guiter` 
 * Aditi - `sunbreak-sleepyfish`
 * Nina - `Pianobeats`
 * Jon - `Stargaze` 
+
+## The Result
+* "Bit Trip - Final Project"
+* Jon - 'Stargaze'
+* Aditi - 'Sweet Dreams'
+* Bhargvi - 'Lo-Funk'
+* Nina - 'Sidestep'
 
 ## Conclusion & Evaluation 
 
