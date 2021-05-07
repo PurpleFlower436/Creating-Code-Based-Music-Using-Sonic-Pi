@@ -26,10 +26,10 @@ We used Raspberry Pi OS
 
 ## The Result
 * "Bit Trip - Final Project"
-* Jon - 'Stargaze'
-* Aditi - 'Sweet Dreams'
-* Bhargvi - 'Lo-Funk'
-* Nina - 'Sidestep'
+* Jon - `Stargaze`
+* Aditi - `Sweet Dreams`
+* Bhargvi - `Lo-Funk`
+* Nina - `Sidestep`
 
 ## Conclusion & Evaluation 
 
